@@ -1,4 +1,4 @@
-CONFIGS := cli.json personality.json service.json
+CONFIGS := AGENTS.md cli.json personality.json service.json
 
 sync:
 	@cp $(CONFIGS) ~/.config/opencode/
