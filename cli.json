@@ -8,7 +8,15 @@
   },
   "attention": {
     "notifications": true,
-    "sound": true
+    "sound": true,
+    "sounds": {
+      "default": "",
+      "question": "./sounds/question.wav",
+      "permission": "./sounds/permission.wav",
+      "error": "./sounds/error.wav",
+      "done": "./sounds/done.wav",
+      "subagent_done": "./sounds/subagent-done.wav"
+    }
   }
 }
 
