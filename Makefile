@@ -1,4 +1,5 @@
+CONFIGS := cli.json personality.json service.json
+
 sync:
-	@cp ./* ~/.config/opencode/
-	@rm ~/.config/opencode/Makefile
+	@cp $(CONFIGS) ~/.config/opencode/
 .PHONY: sync
